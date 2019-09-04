@@ -2,23 +2,34 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="54920" started-at="2019-09-01T12:04:26Z" finished-at="2019-09-01T12:05:21Z">
+  <suite name="Suite" duration-ms="11855" started-at="2019-09-04T06:36:53Z" finished-at="2019-09-04T06:37:05Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="54920" started-at="2019-09-01T12:04:26Z" finished-at="2019-09-01T12:05:21Z">
+    <test name="TestAPI" duration-ms="11855" started-at="2019-09-04T06:36:53Z" finished-at="2019-09-04T06:37:05Z">
       <class name="com.apiTest.API.ValidateAPI">
-        <test-method status="PASS" signature="initialization(org.testng.ITestContext)[pri:0, instance:com.apiTest.API.ValidateAPI@57a3af25]" name="initialization" is-config="true" duration-ms="6203" started-at="2019-09-01T12:04:20Z" finished-at="2019-09-01T12:04:26Z">
+        <test-method status="PASS" signature="initialization(org.testng.ITestContext)[pri:0, instance:com.apiTest.API.ValidateAPI@31a5c39e]" name="initialization" is-config="true" duration-ms="203" started-at="2019-09-04T06:36:53Z" finished-at="2019-09-04T06:36:53Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@61ae0d43]]>
+                <![CDATA[org.testng.TestRunner@7ad54c55]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialization -->
-        <test-method status="PASS" signature="verifyAPI(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.apiTest.API.ValidateAPI@57a3af25]" name="verifyAPI" duration-ms="40036" started-at="2019-09-01T12:04:31Z" data-provider="APITestData" finished-at="2019-09-01T12:05:11Z">
+        <test-method status="PASS" signature="createTest(org.testng.ITestResult)[pri:0, instance:com.apiTest.API.ValidateAPI@31a5c39e]" name="createTest" is-config="true" duration-ms="13" started-at="2019-09-04T06:36:54Z" finished-at="2019-09-04T06:36:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAPI status=SUCCESS method=ValidateAPI.verifyAPI(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.apiTest.API.ValidateAPI@31a5c39e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTest -->
+        <test-method status="PASS" signature="verifyAPI(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.apiTest.API.ValidateAPI@31a5c39e]" name="verifyAPI" duration-ms="7800" started-at="2019-09-04T06:36:54Z" data-provider="APITestData" finished-at="2019-09-04T06:37:02Z">
           <params>
             <param index="0">
               <value>
@@ -59,22 +70,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAPI -->
-        <test-method status="PASS" signature="createTest(org.testng.ITestResult)[pri:0, instance:com.apiTest.API.ValidateAPI@57a3af25]" name="createTest" is-config="true" duration-ms="0" started-at="2019-09-01T12:04:31Z" finished-at="2019-09-01T12:04:31Z">
+        <test-method status="PASS" signature="flushReport()[pri:0, instance:com.apiTest.API.ValidateAPI@31a5c39e]" name="flushReport" is-config="true" duration-ms="385" started-at="2019-09-04T06:37:02Z" finished-at="2019-09-04T06:37:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+        <test-method status="PASS" signature="createTest(org.testng.ITestResult)[pri:0, instance:com.apiTest.API.ValidateAPI@31a5c39e]" name="createTest" is-config="true" duration-ms="1" started-at="2019-09-04T06:37:02Z" finished-at="2019-09-04T06:37:02Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyAPI status=SUCCESS method=ValidateAPI.verifyAPI(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.apiTest.API.ValidateAPI@57a3af25] output={null}]]]>
+                <![CDATA[[TestResult name=verifyAPI status=SUCCESS method=ValidateAPI.verifyAPI(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.apiTest.API.ValidateAPI@31a5c39e] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createTest -->
-        <test-method status="PASS" signature="flushReport()[pri:0, instance:com.apiTest.API.ValidateAPI@57a3af25]" name="flushReport" is-config="true" duration-ms="572" started-at="2019-09-01T12:05:11Z" finished-at="2019-09-01T12:05:12Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- flushReport -->
-        <test-method status="PASS" signature="verifyAPI(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.apiTest.API.ValidateAPI@57a3af25]" name="verifyAPI" duration-ms="8868" started-at="2019-09-01T12:05:12Z" data-provider="APITestData" finished-at="2019-09-01T12:05:21Z">
+        <test-method status="PASS" signature="verifyAPI(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.apiTest.API.ValidateAPI@31a5c39e]" name="verifyAPI" duration-ms="2834" started-at="2019-09-04T06:37:02Z" data-provider="APITestData" finished-at="2019-09-04T06:37:05Z">
           <params>
             <param index="0">
               <value>
@@ -115,22 +126,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAPI -->
-        <test-method status="PASS" signature="createTest(org.testng.ITestResult)[pri:0, instance:com.apiTest.API.ValidateAPI@57a3af25]" name="createTest" is-config="true" duration-ms="0" started-at="2019-09-01T12:05:12Z" finished-at="2019-09-01T12:05:12Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyAPI status=SUCCESS method=ValidateAPI.verifyAPI(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.apiTest.API.ValidateAPI@57a3af25] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createTest -->
-        <test-method status="PASS" signature="flushReport()[pri:0, instance:com.apiTest.API.ValidateAPI@57a3af25]" name="flushReport" is-config="true" duration-ms="132" started-at="2019-09-01T12:05:21Z" finished-at="2019-09-01T12:05:21Z">
+        <test-method status="PASS" signature="flushReport()[pri:0, instance:com.apiTest.API.ValidateAPI@31a5c39e]" name="flushReport" is-config="true" duration-ms="137" started-at="2019-09-04T06:37:05Z" finished-at="2019-09-04T06:37:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- flushReport -->
       </class> <!-- com.apiTest.API.ValidateAPI -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- TestAPI -->
+  </suite> <!-- Suite -->
 </testng-results>
